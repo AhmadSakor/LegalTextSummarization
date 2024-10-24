@@ -1,0 +1,46 @@
+name: legal-llm
+channels:
+  - nvidia/label/cuda-11.8.0
+  - pytorch
+  - conda-forge
+dependencies:
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cuda
+  - pytorch-cuda=11.8
+  - compilers
+  - sysroot_linux-64==2.17
+  - gcc==11.4
+  - ninja
+  - py-cpuinfo
+  - libaio
+  - ca-certificates
+  - certifi
+  - openssl
+  - python=3.10
+  - pydantic
+  - transformers
+  - peft
+  - datasets
+  - accelerate
+  - sentencepiece
+  - pip
+  - pip:
+      - ninja
+      - deepspeed
+      - trl
+      - wandb
+      - flash-attn
+      - rouge-score
+      - bert-score
+      - sentence-transformers
+      - tqdm
+      - jsonschema
+      - matplotlib
+      - seaborn
+      - jsonlines
+      - gensim
+      - POT
+      - evaluate
+      - git+https://github.com/google-research/bleurt.git

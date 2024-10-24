@@ -1,0 +1,155 @@
+@prefix : <http://example.org/legalcase#> .
+@prefix entity: <http://example.org/entity#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Classes
+:LegalCase a rdfs:Class .
+:Person a rdfs:Class .
+:CaseInformation a rdfs:Class .
+:BackgroundOfTheCase a rdfs:Class .
+:RelevantDate a rdfs:Class .
+:ArgumentsPresented a rdfs:Class .
+:CourtFindings a rdfs:Class .
+:Outcome a rdfs:Class .
+:AdditionalNotes a rdfs:Class .
+
+# Entity Classes
+entity:Court a rdfs:Class .
+entity:MainCaseTopic a rdfs:Class .
+entity:Event a rdfs:Class .
+entity:KeyIssue a rdfs:Class .
+entity:Argument a rdfs:Class .
+entity:LegalPrinciple a rdfs:Class .
+entity:EvidenceReviewed a rdfs:Class .
+entity:RulingsMade a rdfs:Class .
+entity:FinalDecision a rdfs:Class .
+entity:Implications a rdfs:Class .
+entity:Observation a rdfs:Class .
+
+# Common Entity Properties
+entity:value a rdf:Property ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range xsd:string .
+
+# LegalCase properties
+:fullText a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range xsd:string .
+
+:hasCaseInformation a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range :CaseInformation .
+
+:hasPerson a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range :Person .
+
+:hasBackgroundOfTheCase a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range :BackgroundOfTheCase .
+
+:hasKeyIssue a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range entity:KeyIssue .
+
+:hasArgumentsPresented a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range :ArgumentsPresented .
+
+:hasCourtFindings a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range :CourtFindings .
+
+:hasOutcome a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range :Outcome .
+
+:hasAdditionalNotes a rdf:Property ;
+    rdfs:domain :LegalCase ;
+    rdfs:range :AdditionalNotes .
+
+# CaseInformation properties
+:caseNumber a rdf:Property ;
+    rdfs:domain :CaseInformation ;
+    rdfs:range xsd:string .
+
+:dateOfRuling a rdf:Property ;
+    rdfs:domain :CaseInformation ;
+    rdfs:range xsd:date .
+
+:court a rdf:Property ;
+    rdfs:domain :CaseInformation ;
+    rdfs:range entity:Court .
+
+:mainCaseTopic a rdf:Property ;
+    rdfs:domain :CaseInformation ;
+    rdfs:range entity:MainCaseTopic .
+
+:partiesInvolved a rdf:Property ;
+    rdfs:domain :CaseInformation ;
+    rdfs:range xsd:string .
+
+# Person properties
+:name a rdf:Property ;
+    rdfs:domain :Person ;
+    rdfs:range xsd:string .
+
+:role a rdf:Property ;
+    rdfs:domain :Person ;
+    rdfs:range xsd:string .
+
+# BackgroundOfTheCase properties
+:overview a rdf:Property ;
+    rdfs:domain :BackgroundOfTheCase ;
+    rdfs:range xsd:string .
+
+:hasRelevantDate a rdf:Property ;
+    rdfs:domain :BackgroundOfTheCase ;
+    rdfs:range :RelevantDate .
+
+# RelevantDate properties
+:date a rdf:Property ;
+    rdfs:domain :RelevantDate ;
+    rdfs:range xsd:date .
+
+:event a rdf:Property ;
+    rdfs:domain :RelevantDate ;
+    rdfs:range entity:Event .
+
+# ArgumentsPresented properties
+:claimantsArguments a rdf:Property ;
+    rdfs:domain :ArgumentsPresented ;
+    rdfs:range entity:Argument .
+
+:defendantsArguments a rdf:Property ;
+    rdfs:domain :ArgumentsPresented ;
+    rdfs:range entity:Argument .
+
+# CourtFindings properties
+:evidenceReviewed a rdf:Property ;
+    rdfs:domain :CourtFindings ;
+    rdfs:range entity:EvidenceReviewed .
+
+:rulingsMade a rdf:Property ;
+    rdfs:domain :CourtFindings ;
+    rdfs:range entity:RulingsMade .
+
+:hasLegalPrincipleApplied a rdf:Property ;
+    rdfs:domain :CourtFindings ;
+    rdfs:range entity:LegalPrinciple .
+
+# Outcome properties
+:finalDecision a rdf:Property ;
+    rdfs:domain :Outcome ;
+    rdfs:range entity:FinalDecision .
+
+:implications a rdf:Property ;
+    rdfs:domain :Outcome ;
+    rdfs:range entity:Implications .
+
+# AdditionalNotes properties
+:observations a rdf:Property ;
+    rdfs:domain :AdditionalNotes ;
+    rdfs:range entity:Observation .
