@@ -6,14 +6,15 @@
 A comprehensive system for collecting, analyzing, and summarizing legal cases in Arabic using Large Language Models fine tuning and knowledge graph techniques.
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [System Architecture](#system-architecture)
-- [Key Features](#key-features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage Pipeline](#usage-pipeline)
-- [Project Structure](#project-structure)
-- [Performance](#performance)
+- [Overview](#-overview)
+- [System Architecture](#-system-architecture)
+- [Key Features](#-key-features)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Usage Pipeline](#-usage-pipeline)
+- [Project Structure](#-project-structure)
+- [Performance](#-performance)
+- [Created Knowledge Graph](#-created-knowledge-graph)
 
 ## 🔍 Overview
 
