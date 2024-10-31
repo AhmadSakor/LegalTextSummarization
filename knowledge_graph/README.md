@@ -154,5 +154,5 @@ The knowledge graph can be visualized using:
 
 Below is a sample of the created knowledge graph:
 
-![Knowledge Graph](./graph.png)
+![Knowledge Graph](../graph.png)
 
