@@ -111,7 +111,7 @@ Full evaluation metrics available in the evaluation directory.
 
 ## 🌐 Created Knowledge Graph
 
-Below is a sample of the knowledge graph created:
+Below is a sample of the created knowledge graph:
 
 ![Knowledge Graph](./graph.png)
 
