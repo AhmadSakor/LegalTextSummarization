@@ -10,7 +10,8 @@ This part transforms structured legal case data into a comprehensive knowledge g
 - [Usage](#usage)
 - [Ontology Structure](#ontology-structure)
 - [Query Capabilities](#query-capabilities)
-- [File Structure](#file-structure)
+- [Visualization](#visualization)
+- [Created Knowledge Graph](#created-knowledge-graph)
 
 ## 🔍 Overview
 
@@ -148,4 +149,10 @@ The knowledge graph can be visualized using:
 - GraphDB's built-in visualization tools
 - Custom visualization scripts
 - Third-party graph visualization libraries
+
+## 🌐 Created Knowledge Graph
+
+Below is a sample of the created knowledge graph:
+
+![Knowledge Graph](./graph.png)
 
