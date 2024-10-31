@@ -3,15 +3,15 @@
 This part transforms structured legal case data into a comprehensive knowledge graph using RDF (Resource Description Framework) and provides SPARQL querying capabilities.
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Data Pipeline](#data-pipeline)
-- [Usage](#usage)
-- [Ontology Structure](#ontology-structure)
-- [Query Capabilities](#query-capabilities)
-- [Visualization](#visualization)
-- [Created Knowledge Graph](#created-knowledge-graph)
+- [Overview](#-overview)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Data Pipeline](#-data-pipeline)
+- [Usage](#-usage)
+- [Ontology Structure](#-ontology-structure)
+- [Query Capabilities](#-query-capabilities)
+- [Visualization](#-visualization)
+- [Created Knowledge Graph](#-created-knowledge-graph)
 
 ## 🔍 Overview
 
