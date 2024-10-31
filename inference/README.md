@@ -3,13 +3,13 @@
 A FastAPI service for generating structured summaries of legal cases using our fine-tuned LLaMA model. The API provides a single endpoint that validates legal text input and generates comprehensive JSON-formatted summaries.
 
 ## 📋 Table of Contents
-- [System Requirements](#system-requirements)
-- [Installation](#installation)
-- [Running the API](#running-the-api)
-- [API Documentation](#api-documentation)
-- [Usage Examples](#usage-examples)
-- [Model Details](#model-details)
-- [Troubleshooting](#troubleshooting)
+- [System Requirements](#-system-requirements)
+- [Installation](#-installation)
+- [Running the API](#-running-the-api)
+- [API Documentation](#-api-documentation)
+- [Usage Examples](#-usage-examples)
+- [Model Details](#-model-details)
+- [Troubleshooting](#-troubleshooting)
 
 ## 💻 System Requirements
 
