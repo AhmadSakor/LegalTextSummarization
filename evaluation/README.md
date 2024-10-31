@@ -3,13 +3,13 @@
 A comprehensive evaluation framework for assessing the performance of the base and fine-tuned LLaMA models on legal case summarization tasks.
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Installation](#installation)
-- [Evaluation Process](#evaluation-process)
-- [Running Evaluations](#running-evaluations)
-- [Evaluation Metrics](#evaluation-metrics)
-- [Performance Results](#performance-results)
-- [Key Improvements](#key-improvements)
+- [Overview](#-overview)
+- [Installation](#-installation)
+- [Evaluation Process](#-evaluation-process)
+- [Running Evaluations](#-running-evaluations)
+- [Evaluation Metrics](#-evaluation-metrics)
+- [Performance Results](#-performance-results)
+- [Key Improvements](#-key-improvements)
 
 ## 🔍 Overview
 
