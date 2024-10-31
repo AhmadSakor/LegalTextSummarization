@@ -6,7 +6,6 @@ A comprehensive evaluation framework for assessing the performance of the base a
 - [Overview](#-overview)
 - [Installation](#-installation)
 - [Evaluation Process](#-evaluation-process)
-- [Running Evaluations](#-running-evaluations)
 - [Evaluation Metrics](#-evaluation-metrics)
 - [Performance Results](#-performance-results)
 - [Key Improvements](#-key-improvements)
