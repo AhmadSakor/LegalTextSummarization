@@ -5,11 +5,11 @@
 
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [System Requirements](#system-requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Pipeline Stages](#pipeline-stages)
+- [Overview](#-overview)
+- [System Requirements](#-system-requirements)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Pipeline Stages](#-pipeline-stages)
 
 ## 🔍 Overview
 
