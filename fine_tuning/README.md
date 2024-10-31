@@ -3,13 +3,13 @@
 A comprehensive pipeline for fine-tuning LLaMA models on legal case summarization tasks using LoRA (Low-Rank Adaptation) with distributed training support.
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Pipeline Steps](#pipeline-steps)
-- [Technical Details](#technical-details)
-- [Model Merging](#model-merging)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Pipeline Steps](#-pipeline-steps)
+- [Technical Details](#-technical-details)
+- [Model Merging](#-model-merging)
 
 ## 🔍 Overview
 
