@@ -1,9 +1,9 @@
-# Legal Case Analysis and Summarization System 🔍
+# Legal Case Analysis and Summarization System for Arabic 🔍
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-A comprehensive system for collecting, analyzing, and summarizing legal cases using Large Language Models fine tuning and knowledge graph techniques.
+A comprehensive system for collecting, analyzing, and summarizing legal cases in Arabic using Large Language Models fine tuning and knowledge graph techniques.
 
 ## 📋 Table of Contents
 - [Overview](#overview)
