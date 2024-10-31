@@ -109,6 +109,12 @@ The fine-tuned model shows significant improvements over the base model:
 
 Full evaluation metrics available in the evaluation directory.
 
+## 🌐 Created Knowledge Graph
+
+Below is a sample of the knowledge graph created:
+
+![Knowledge Graph](./graph.png)
+
 ## 🙏 Acknowledgments
 
 - [Moroccan Judicial Portal](https://juriscassation.cspj.ma/en) for providing access to legal cases
