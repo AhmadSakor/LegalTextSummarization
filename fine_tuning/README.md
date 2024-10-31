@@ -186,7 +186,7 @@ model.push_to_hub(new_model)
 
 
 
-[![Weights & Biases](https://img.shields.io/badge/Weights_&_Biases-Report-yellow.svg)](https://wandb.ai/hawk92-tib-/Fine-tune%20Llama%203.2%20for%20Legal%20Summarization%202/reports/Fine-tuning-Llama3-2-3B-Instruct--Vmlldzo5ODExNDkx)
+[![Weights & Biases](https://img.shields.io/badge/Weights_&_Biases-Report-yellow.svg)](https://api.wandb.ai/links/hawk92-tib-/7onl7dlg)
 
 View the complete training metrics, learning curves, and detailed analysis in our [Weights & Biases Report](https://api.wandb.ai/links/hawk92-tib-/7onl7dlg).
 
