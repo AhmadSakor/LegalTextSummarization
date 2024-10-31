@@ -10,6 +10,7 @@
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Pipeline Stages](#-pipeline-stages)
+- [Sample Case](#-sample-case)
 
 ## 🔍 Overview
 
@@ -77,7 +78,7 @@ python fix_files_with_errors.py --input_folder ../data/errors_files --output_fol
 ```
 
 
-## 📝 Data Preparation Pipeline Stages
+## 📝 Pipeline Stages
 
 ### Stage 1: Data Collection
 - Connects to the Judicial Portal
