@@ -72,6 +72,7 @@ def initialize_model(model_id: str):
             tokenizer=tokenizer,
             torch_dtype=dtype,
             device_map=device_map,
+            temperature=0.1
         )
 
         logging.info(f"Model '{model_id}' loaded successfully with device_map='{device_map}'.")
