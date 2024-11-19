@@ -71,8 +71,7 @@ def initialize_model(model_id: str):
             model=model,
             tokenizer=tokenizer,
             torch_dtype=dtype,
-            device_map=device_map,
-            temperature=0.1
+            device_map=device_map     
         )
 
         logging.info(f"Model '{model_id}' loaded successfully with device_map='{device_map}'.")
@@ -182,6 +181,7 @@ def generate_outputs(pipe, eval_dataset, eval_dir, batch_size=16):
             batch_size=batch_size,
             padding=True,
             return_full_text=False,
+            temperature=0.1
         )
 
         # Process the outputs
