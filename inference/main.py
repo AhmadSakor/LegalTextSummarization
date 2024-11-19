@@ -205,6 +205,7 @@ async def predict(request: Request):
         pad_token_id=pipe.tokenizer.eos_token_id,
         padding=True,
         return_full_text=False,
+        temperature=0.1
     )
 
     return {"generated_text": generated_outputs[0]["generated_text"]}
